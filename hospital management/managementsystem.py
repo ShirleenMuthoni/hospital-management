@@ -78,16 +78,16 @@ if __name__ == "__main__":
     hospital_system = HospitalManagementSystem()
 
     # Adding patients
-    hospital_system.add_patient("Alice", 30, 1)
-    hospital_system.add_patient("Bob", 40, 2)
+    hospital_system.add_patient("Alice", 35, 1)
+    hospital_system.add_patient("Rob", 20, 2)
 
     # Adding doctors
-    hospital_system.add_doctor("Dr. Smith", 50, "Cardiology")
-    hospital_system.add_doctor("Dr. Jones", 45, "Orthopedics")
+    hospital_system.add_doctor("Dr. Sam", 50, "Cardiology")
+    hospital_system.add_doctor("Dr. Lucy", 45, "Gynacology")
 
     # Creating appointments
-    hospital_system.create_appointment(1, "Dr. Smith", "2024-11-01")
-    hospital_system.create_appointment(2, "Dr. Jones", "2024-11-02")
+    hospital_system.create_appointment(1, "Dr. Sam", "2024-11-01")
+    hospital_system.create_appointment(2, "Dr. Lucy", "2024-11-02")
 
     # Displaying records
     hospital_system.display_patients()
